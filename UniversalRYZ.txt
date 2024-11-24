@@ -1,3 +1,6 @@
+--ps. this script is open-source since its js a dumb scripthub
+
+
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
