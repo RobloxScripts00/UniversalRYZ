@@ -1,5 +1,3 @@
---BlueSide's Auto-Report, but with more words.
-
 repeat
 	task.wait()
 until game:IsLoaded()
