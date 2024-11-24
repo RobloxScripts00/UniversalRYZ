@@ -50,9 +50,9 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Execute DarkDex V3",
+   Name = "Execute Dex Explorer",
    Callback = function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+ loadstring(game:HttpGet("raw.githubusercontent.com/infyiff/backup/main/dex.lua", true))()
    end,
    
 })
