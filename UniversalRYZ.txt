@@ -152,3 +152,11 @@ local Button = MainTab:CreateButton({
    end,
    
 })
+
+local Button = MainTab:CreateButton({
+   Name = "Execute AutoReport By BlueSide",
+   Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxScripts00/UniversalRYZ/refs/heads/main/AutoReportByBlueSide.txt"))()
+   end,
+   
+})
