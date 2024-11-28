@@ -165,7 +165,7 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Execute AutoReport [Not Working]",
+   Name = "Execute AutoReport",
    Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/Auto-Report/main/revamp.lua'))()
    end,
