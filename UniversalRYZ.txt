@@ -171,3 +171,21 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/Auto-Report/
    end,
    
 })
+
+local Button = MainTab:CreateButton({
+   Name = "Execute AutoReport",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/Auto-Report/main/revamp.lua'))()
+   end,
+   
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Execute Universal Vehicle Script",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Documantation12/Universal-Vehicle-Script/main/Main.lua'))()
+   end,
+   
+})
+
+
