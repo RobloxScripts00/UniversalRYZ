@@ -173,19 +173,25 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/Auto-Report/
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Execute AutoReport",
-   Callback = function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/Auto-Report/main/revamp.lua'))()
-   end,
-   
-})
-
-local Button = MainTab:CreateButton({
    Name = "Execute Universal Vehicle Script",
    Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Documantation12/Universal-Vehicle-Script/main/Main.lua'))()
    end,
-   
+  
 })
 
+local Button = MainTab:CreateButton({
+   Name = "Execute God Mode Script",
+   Callback = function()
 
+Rayfield:Notify({
+   Title = "Script Notifier",
+   Content = "You can enable the script by looking on the Top Left of the screen.",
+   Duration = 6.5,
+   Image = 4483362458,
+})
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main"))()
+   end,
+  
+})
